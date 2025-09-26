@@ -17,7 +17,7 @@ const App = () => {
     return (
             <div className="container shadow mx-auto w-75">
                 <div className="header mb-5">
-                    <img src="/PokemonReact/public/header.jpeg" alt=""  class="w-100"/>
+                    <img src="/PokemonReact/assets/header.jpeg" alt=""  class="w-100"/>
                 </div>
                 <div className="row p-3 justify-content-center">
                     {pokemons.map((pokemon) => (
