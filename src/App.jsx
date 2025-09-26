@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PokemonCard from './components/PokemonCard';
 import { fetchPokemons } from './services/pokemonService';
+import header from './assets/header.jpeg'
 
 const App = () => {
 
@@ -17,7 +18,7 @@ const App = () => {
     return (
             <div className="container shadow mx-auto w-75">
                 <div className="header mb-5">
-                    <img src="/PokemonReact/assets/header.jpeg" alt=""  class="w-100"/>
+                    <img src="{header}" alt="header"  class="w-100"/>
                 </div>
                 <div className="row p-3 justify-content-center">
                     {pokemons.map((pokemon) => (
