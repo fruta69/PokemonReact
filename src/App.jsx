@@ -18,7 +18,7 @@ const App = () => {
     return (
             <div className="container shadow mx-auto w-75">
                 <div className="header mb-5">
-                    <img src="{header}" alt="header"  class="w-100"/>
+                    <img src={header} alt="header"  class="w-100"/>
                 </div>
                 <div className="row p-3 justify-content-center">
                     {pokemons.map((pokemon) => (
